@@ -10,7 +10,7 @@ const getMovies = async (url) => {
     showMovies(data)
 }
 getMovies(APIURL);
-
+//movie//
 
 const showMovies = (data) => {
     moiveBox.innerHTML = "";
